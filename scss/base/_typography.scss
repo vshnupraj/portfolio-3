@@ -1,0 +1,22 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+/*Font typography*/
+h1{
+    @include font($Blue-dark,900);   
+}
+
+h2, h3, h4, h5, h6{
+    @include font($Blue-dark,600);
+}
+
+h5{
+    font-weight: 400 !important;
+}
+
+.footer{
+    h6{
+        color: $blue-thin-light !important; 
+        font-weight: 100 !important;  
+    }
+}

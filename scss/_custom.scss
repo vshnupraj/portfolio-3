@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+@import '../scss/abstracts/variables';
+@import '../scss/abstracts/mixins';
+
+@import '../scss/base/typography';
+@import '../scss/base/base';
+
+@import '../scss/components/buttons';
+@import '../scss/components/cards';
+
+@import '../scss/layout/navigation';
+@import '../scss/layout/header';
+@import '../scss/layout/footer';
+
+//Pages
+
+@import '../scss/pages/home';
+@import '../scss/pages/about';
+@import '../scss/pages/education';
+@import '../scss/pages/skills';
+@import '../scss/pages/gallery';

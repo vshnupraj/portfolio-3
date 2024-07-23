@@ -1,0 +1,21 @@
+
+
+.expertise, .expertise-2{
+    background-color: $tertiary;
+}
+.box{
+    background-color: $primary;
+}
+.innovative{
+    background-color: $light ;
+}
+.discover{
+    background-color: $tertiary;
+}
+
+.custom-gradient {
+    background: linear-gradient(to bottom, $blue-light, $light);
+            mask: linear-gradient(black, black, transparent);
+            backdrop-filter: blur(8px);
+    height: 100px;
+}

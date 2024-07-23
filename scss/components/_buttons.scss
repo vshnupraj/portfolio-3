@@ -1,0 +1,37 @@
+@import '../abstracts/variables';
+
+/*Dark Button*/
+.btn-dark {
+    $btn-dark-bg: $Blue-dark !important; 
+    $btn-dark-hover-bg: $accent !important; 
+    $btn-dark-hover-border-color: $accent ;
+    $btn-dark-hover-color: $Blue-dark !important;
+    background-color: $btn-dark-bg;
+    &:hover {
+      background-color: $btn-dark-hover-bg;
+      border-color: $btn-dark-hover-border-color !important;
+      color: $btn-dark-hover-color;
+      transition: all 0.5s ease;
+      transform: scale(1.05);
+      box-shadow: 0 4px 0 rgba(39, 52, 67, 0.5);
+    }
+  }
+ /*Light Button*/
+  .btn-light {
+    $btn-light-bg: $blue-thin-light !important;
+    $btn-light-hover-bg: $accent !important; 
+    background-color: $btn-light-bg;
+    $btn-light-hover-color: $Blue-dark !important;
+    $btn-light-border-color: $Blue-dark !important;
+    border-color: $btn-light-border-color;
+    &:hover{
+        background-color: $btn-light-hover-bg;
+        color: $btn-light-hover-color;
+        border-color: $btn-light-hover-bg;
+        transition: all 0.5s ease;
+        transform: scale(1.05);
+        box-shadow: 0 4px 0 rgba(39, 52, 67, 0.5);
+    }
+    
+    
+  }

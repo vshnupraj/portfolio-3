@@ -1,0 +1,13 @@
+@import '../abstracts/variables';
+.card{
+    background-color: $Blue-dark !important;
+   
+}
+
+.progress{
+    background-color: $blue-light !important;
+    &-bar{
+        background-color: $accent !important;
+        color: $Blue-dark !important;
+    }
+}

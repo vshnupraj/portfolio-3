@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+/*Font typography*/
+h1 {
+  color: #272343 !important;
+  font-weight: 900 !important;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #272343 !important;
+  font-weight: 600 !important;
+}
+
+h5 {
+  font-weight: 400 !important;
+}
+
+.footer h6 {
+  color: #E3F6F5 !important;
+  font-weight: 100 !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/*Dark Button*/
+.btn-dark {
+  background-color: #272343 !important;
+}
+.btn-dark:hover {
+  background-color: #ffd803 !important;
+  border-color: #ffd803 !important;
+  color: #272343 !important;
+  transition: all 0.5s ease;
+  transform: scale(1.05);
+  box-shadow: 0 4px 0 rgba(39, 52, 67, 0.5);
+}
+
+/*Light Button*/
+.btn-light {
+  background-color: #E3F6F5 !important;
+  border-color: #272343 !important;
+}
+.btn-light:hover {
+  background-color: #ffd803 !important;
+  color: #272343 !important;
+  border-color: #ffd803 !important;
+  transition: all 0.5s ease;
+  transform: scale(1.05);
+  box-shadow: 0 4px 0 rgba(39, 52, 67, 0.5);
+}
+
+.card {
+  background-color: #272343 !important;
+}
+
+.progress {
+  background-color: #bae8e8 !important;
+}
+.progress-bar {
+  background-color: #ffd803 !important;
+  color: #272343 !important;
+}
+
+.navbar {
+  background: #272343;
+}
+.navbar .brand-font {
+  color: #bae8e8 !important;
+}
+.navbar .nav-link {
+  color: #bae8e8;
+}
+.navbar .nav-link:hover {
+  color: #ffd803;
+  transition: all 0.5s ease;
+  transform: scale(1.5);
+}
+
+/*Hero section*/
+.header {
+  background-color: #E3F6F5;
+}
+
+/*Footer*/
+.footer {
+  background-color: #272343;
+}
+
+.expertise, .expertise-2 {
+  background-color: #bae8e8;
+}
+
+.box {
+  background-color: #E3F6F5;
+}
+
+.innovative {
+  background-color: #fffffe;
+}
+
+.discover {
+  background-color: #bae8e8;
+}
+
+.custom-gradient {
+  background: linear-gradient(to bottom, #bae8e8, #fffffe);
+  mask: linear-gradient(black, black, transparent);
+  backdrop-filter: blur(8px);
+  height: 100px;
+}
+
+.about {
+  background-color: #E3F6F5;
+}
+
+.education {
+  background-color: #E3F6F5;
+}
+.education .h4 {
+  color: #272343;
+  font-weight: 600;
+}
+.education p {
+  color: #272343;
+}
+
+.skills {
+  background-color: #E3F6F5;
+}
+.skills h5 {
+  color: #bae8e8 !important;
+}
+
+.gallery {
+  background-color: #E3F6F5;
+}/*# sourceMappingURL=style.css.map */
