@@ -1,5 +1,10 @@
+/*Home section*/
 @import '../abstracts/mixins';
 
+
+.txt-highlight{
+    border: 7px solid $accent;
+}
 .expertise, .expertise-2{
     background-color: $tertiary;
 }
