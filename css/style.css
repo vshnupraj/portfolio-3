@@ -129,6 +129,7 @@ h5 {
   }
   #wave {
     height: 150px;
+    width: auto;
   }
 }
 .about {
