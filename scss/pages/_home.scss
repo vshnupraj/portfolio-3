@@ -1,4 +1,4 @@
-
+@import '../abstracts/mixins';
 
 .expertise, .expertise-2{
     background-color: $tertiary;
@@ -18,4 +18,16 @@
             mask: linear-gradient(black, black, transparent);
             backdrop-filter: blur(8px);
     height: 100px;
+}
+
+@include mobile{
+    .mobile-vh{
+        height: 680px;
+        &__col{
+            padding: 50px;
+        }
+    }
+    #wave{
+        height: 150px; 
+    }
 }
