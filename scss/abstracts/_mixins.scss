@@ -3,4 +3,14 @@
     color : $color !important;
     font-weight: $weight !important;
     }
-    
+@mixin tablet{
+    @media screen and (max-width: 768px){
+        @content;        
+    }
+}
+
+@mixin mobile{
+    @media screen and (max-width: 576px){
+        @content;        
+    }
+}
