@@ -122,10 +122,10 @@ h5 {
 
 @media screen and (max-width: 576px) {
   .mobile-vh {
-    height: 800px;
+    height: 650px;
   }
   .mobile-vh__col {
-    padding: 50px;
+    padding: 100px;
   }
 }
 .about {
