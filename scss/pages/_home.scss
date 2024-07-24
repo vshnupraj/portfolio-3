@@ -2,10 +2,10 @@
 @import '../abstracts/mixins';
 @import '../abstracts/variables';
 
-
 .txt-highlight{
     border: 7px solid $accent;
 }
+
 .expertise, .expertise-2{
     background-color: $tertiary;
 }
@@ -28,9 +28,16 @@
 
 @include mobile{
     .mobile-vh{
-        height: 680px;
+        height: 800px;
         &__col{
             padding: 50px;
         }
     }
 }
+
+
+
+
+
+
+
