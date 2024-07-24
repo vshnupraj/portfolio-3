@@ -122,7 +122,7 @@ h5 {
 
 @media screen and (max-width: 576px) {
   .mobile-vh {
-    height: 650px;
+    height: 100%;
   }
   .mobile-vh__col {
     padding: 100px;
