@@ -1,14 +1,32 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
 
 
 .education{
     background-color: $blue-thin-light;
-    
     .h4{
         color: $Blue-dark ;
         font-weight: 600;
+        font-size: 2.2rem;
     }
-
     p{
         color: $Blue-dark;
+        font-size: 1.3rem;
+    }
+}
+.ed-mobile-vh{
+    height: 100vh;
+}
+@include mobile{
+    .ed-mobile-vh{
+        height:90vh;
+    }
+    .h4{
+        font-size: 1.9rem !important;
+    }
+}
+@include tablet{
+    .ed-mobile-vh{
+        height:100vh;
     }
 }

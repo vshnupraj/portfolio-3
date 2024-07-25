@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-/* @import '../node_modules/bootstrap/dist/css/bootstrap.css'; */
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
 /*Font typography*/
 h1 {
   color: #272343 !important;
@@ -143,11 +143,30 @@ h5 {
 .education .h4 {
   color: #272343;
   font-weight: 600;
+  font-size: 2.2rem;
 }
 .education p {
   color: #272343;
+  font-size: 1.3rem;
 }
 
+.ed-mobile-vh {
+  height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+  .ed-mobile-vh {
+    height: 90vh;
+  }
+  .h4 {
+    font-size: 1.9rem !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ed-mobile-vh {
+    height: 100vh;
+  }
+}
 .skills {
   background-color: #E3F6F5;
 }
