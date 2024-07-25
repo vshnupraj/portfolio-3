@@ -167,6 +167,11 @@ h5 {
     height: 100vh;
   }
 }
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+  .ed-mobile-vh {
+    height: 100%;
+  }
+}
 .skills {
   background-color: #E3F6F5;
 }
