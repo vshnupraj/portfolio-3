@@ -130,7 +130,7 @@ h5 {
     height: 100%;
   }
   .mobile-vh__col {
-    padding: 70px !important;
+    padding: 70px;
   }
 }
 .about {
