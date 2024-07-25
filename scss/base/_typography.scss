@@ -1,9 +1,9 @@
 @import '../abstracts/mixins';
 @import '../abstracts/variables';
 
-html{
-    font-size: 100%;
-}
+// html{
+//     font-size: 100%;
+// }
 /*Font typography*/
 h1{
     @include font($Blue-dark,900);  
@@ -11,13 +11,11 @@ h1{
     @include mobile{
         font-size: 2.6rem !important;
     }
-    }
+}
 
 
 h2, h3, h4, h5, h6{
-    @include font($Blue-dark,600);
-   
-    
+    @include font($Blue-dark,600);   
 }
 
 h5{
